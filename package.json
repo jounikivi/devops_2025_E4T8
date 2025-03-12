@@ -1,7 +1,7 @@
 {
   "name": "testing-with-workout-project-github",
   "version": "1.0.0",
-  "description": "jest and github workflows",
+  "description": "jest and github workflow",
   "main": "Workout.js",
   "type": "module",
   "scripts": {
