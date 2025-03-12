@@ -1,0 +1,29 @@
+name: Automatic testing with Jest
+
+on: [pull_request, workflow_dispatch]
+
+jobs:
+
+  run-jest-tests:
+
+    name:  Jest test
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Node.js enviroment
+        uses: actions/checkout@v4.2.0
+        with:
+          node-version: 20
+
+      - name: install all depencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npm run test
+      
+
+      
+      
+      
