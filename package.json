@@ -1,7 +1,7 @@
 {
   "name": "testing-with-workout-project-github",
   "version": "1.0.0",
-  "description": "Tämmä on testi",
+  "description": "Tämä on 8f-testikuvaus",
   "main": "Workout.js",
   "type": "module",
   "scripts": {
